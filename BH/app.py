@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'  # Replace with a secure secret key
 
 # Configure Gemini API key (make sure to keep it secret in production!)
-genai.configure(api_key="AIzaSyAPnLDbJFxKHbjCw6E1EZSJSwB-N6gjv8I")
+genai.configure(api_key="your API KEY")
 
 # ---------- Utility Functions (adapted from your script) ----------
 
